@@ -1,5 +1,5 @@
 {% set name = "pyspark-test" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyspark_test-{{ version }}.tar.gz
-  sha256: 299d1507d780034d9955cdaa635a51babb8314fe9f86778950c4f27e4e8bba39
+  sha256: 0d9d8d3a352a9b1c30761b0553a5771cb9dbb9a278955b3e7b0aed0ae13892d8
 
 build:
   number: 0
